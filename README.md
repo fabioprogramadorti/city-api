@@ -43,7 +43,7 @@ City API is a RESTful web service designed to manage city data efficiently. It p
    mvn spring-boot:run
    ```
 4. **Access API documentation** via Swagger UI:
-    - `http://localhost:8080/api/swagger-ui.html`
+   - `http://localhost:8080/api/swagger-ui.html`
 
 ## 📌 CSV Upload Format
 The CSV file must include the following columns:
@@ -59,7 +59,7 @@ ibge_id,name,uf,capital,lat,lon
 - **lon**: Longitude (decimal)
 
 ### 📂 Included CSV File
-A sample CSV file is included in the project to facilitate bulk city uploads. You can find it in the project directory and use it for testing.
+A sample CSV file is included in the project to facilitate bulk city uploads. You can find it in the `archive` directory within the project structure and use it for testing.
 
 ## 📄 License
 This project is licensed under the MIT License.
